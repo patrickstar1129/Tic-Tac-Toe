@@ -1,0 +1,34 @@
+h1 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color:#001f3f;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+  background-color: white;
+  margin: 2px;
+  font-family: sans-serif
+};
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
