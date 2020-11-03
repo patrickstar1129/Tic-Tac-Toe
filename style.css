@@ -1,19 +1,24 @@
+
+
 h1 {
-  color: white;
-  font-size: 32px;
+  display: flex;
+  color: #f4df57;
+  font-size: 60px;
   text-align: center;
+  font-family: 'Pacifico' ;
 }
 
 body {
   display: flex;
   justify-content: center;
-  background-color:#001f3f;
+  background-color:#a2bbd0;
 }
 
 .game-board {
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-template-rows: 200px 200px 200px;
+  background-color: #e8c7ca;
 }
 
 .cell {
@@ -23,7 +28,8 @@ body {
   font-size: 200px;
   background-color: white;
   margin: 2px;
-  font-family: sans-serif
+  font-family: sans-serif;
+  color:#e1a69f;
 };
 
 .center-button {
@@ -31,4 +37,24 @@ body {
   justify-content: center;
   align-items: center;
   height: 200px;
+}
+
+.score-count {
+  color: black;
+  display: flex;
+  font-size: 20px;
+  font-family: 'Roboto Mono';
+}
+
+#button {
+  background-color: #e3cec4;
+  color: black;
+  font-size: 18px;
+  font-family: 'Roboto Mono';
+  border-radius: 15%;
+  /* border: white solid 1px; */
+}
+
+footer {
+  display: flex;
 }

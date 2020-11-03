@@ -2,15 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Tic Tac Toe!</title>
+    <title>tic tac toe!</title>
     <link href="style.css" rel="stylesheet"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1>Tic Tac Toe!</h1>
+      <h1>tic tac toe!</h1>
     </header>
       <div class="center-button">
-        <button>Restart</button>
+        <button id="button">Restart</button>
       </div>
     <div class="game-board">
       <div id="00" class="cell"></div>
@@ -22,6 +24,10 @@
       <div id="20" class="cell"></div>
       <div id="21" class="cell"></div>
       <div id="22" class="cell"></div>
+    </div>
+    <div class="score">
+      <span class="score-count">player1: </span>
+      <span class="score-count">player2: </span>
     </div>
     <script src="app.js"></script>
   </body>
